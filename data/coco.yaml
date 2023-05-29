@@ -1,5 +1,5 @@
 train: '/content/datasetforTSD/data/train'
-val: '/content/datasetforTSD/data/test'
+val: '/content/datasetforTSD/data/val'
 
 # number of classes
 nc: 4
