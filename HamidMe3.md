@@ -13,9 +13,9 @@ To test an individual module:
 1. Navigate to the `tests` directory.
 2. Run the following command:
    ```bash
-   pytest -v module.py
+   pytest -v test__module.py
    ```
-   Replace `module.py` with the name of the specific module you want to test.
+   Replace `test__module.py` with the name of the specific module you want to test.
 
 ## Testing All Modules at Once
 
