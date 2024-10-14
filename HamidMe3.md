@@ -1,7 +1,7 @@
 
 # Module Testing Guide
 
-For use Individually, you need to set the address of the input images in the relevant module. For use collectively, you can use the `makefile` in the main directory of the project. In both cases, you can test a different combination of parameters and you need to make the corresponding changes in the files.
+For use Individually, you need to set the address of the input images in the relevant module. For use collectively, you can use the `Makefile` in the main directory of the project. In both cases, you can test a different combination of parameters and you need to make the corresponding changes in the files.
 
 ## Test modules individually
 
