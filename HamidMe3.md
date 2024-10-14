@@ -29,7 +29,7 @@ To run tests for all modules at once, you can utilize the `Makefile` in the proj
 
 Displays all available commands in the `Makefile`.
 
-```bash
+```
 make help
 ```
 
