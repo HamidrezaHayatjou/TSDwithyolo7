@@ -23,9 +23,9 @@ To test an individual module:
 
 To run tests for all modules at once, you can utilize the `Makefile` in the project's root directory. The description of `Makefile` is as follows:
 
-## Commands
+### Commands
 
-### `help`
+#### `help`
 
 Displays all available commands in the `Makefile`.
 
@@ -44,7 +44,7 @@ Available commands:
   make clean-data      - Remove test data in 'test/pipeline_testing and tests/pipeline_testing.zip'.
 ```
 
-### `get_data`
+#### `get_data`
 
 Downloads the required test data from the DVC remote and unzips it in the `tests` directory.
 
@@ -57,7 +57,7 @@ This command will:
 1. Pull the `pipeline_testing.zip` file using DVC.
 2. Unzip the contents into the `tests` directory.
 
-### `set-checkpoints`
+#### `set-checkpoints`
 
 Sets the paths for all necessary checkpoints that are required by the test modules in the `tests` directory.
 
@@ -70,7 +70,7 @@ This will:
 1. Run the `set_checkpoints_path.py` script.
 2. Update the checkpoint paths in the relevant test modules.
 
-### `test-pipeline`
+#### `test-pipeline`
 
 Runs all the test modules in the `tests` directory using Pytest.
 
@@ -84,7 +84,7 @@ This command will:
 2. Run all `.py` files inside the `tests` directory using `pytest`.
 3. Display the results after all tests are completed.
 
-### `clean-results`
+#### `clean-results`
 
 Removes all the previous test result files and temporary files generated during the test process.
 
@@ -98,7 +98,7 @@ Files and directories removed include:
 - `tests/enhancer_training_data_temp`
 - `.pytest_cache`, `__pycache__`, and logs.
 
-### `clean-data`
+#### `clean-data`
 
 Removes the test data downloaded via the `get_data` command.
 
@@ -113,7 +113,7 @@ This will remove:
 
 ---
 
-## Usage Example
+### Usage Example
 
 1. Download the test data:
    ```bash
