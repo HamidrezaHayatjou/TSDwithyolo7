@@ -34,7 +34,7 @@ make help
 ```
 
 Example output:
-```bash
+```
 Available commands:
   make help            - Show this help message.
   make get_data        - Download data and unzip .zip file in 'test' directory.
