@@ -34,7 +34,7 @@ make help
 ```
 
 Example output:
-bash
+``bash
 Available commands:
   make help            - Show this help message.
   make get_data        - Download data and unzip .zip file in 'test' directory.
@@ -42,7 +42,7 @@ Available commands:
   make test-pipeline   - Run tests in the 'tests' directory.
   make clean-results   - Remove previous test result files in 'results/pipeline_testing'.
   make clean-data      - Remove test data in 'test/pipeline_testing and tests/pipeline_testing.zip'.
-
+``
 
 ### `get_data`
 
